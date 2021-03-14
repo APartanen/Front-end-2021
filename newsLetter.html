@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--merkistön koodaus-->
+        <meta charset="UTF-8">
+        <!--Katseluikkunan leveyden määritys: määritetään seuraamaan ruudun leveyttä-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+ <!--Jquery counter up-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+        <!--Bootstrap css: http linkki-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+       
+ 
+    
+        <!--Oma tyylitiedosto-->
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+<!--Font Awesome Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<!-- Google Material Design Icons -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <title>Liana Technologies</title>
+    </head>
+<body>
+
+
+         <script>
+             function tilaus() {
+                alert("Kiitos uutiskirjeen tilauksesta"); 
+             }
+         </script>
+  
+
+  <!--Main antaa muodon sivulle css avulla-->
+<main>
+ 
+
+<langNav class="navbar navbar-expand-lg navbar-light langNav d-none d-lg-block">
+
+<div class="wholeWrapper float-right"> 
+
+
+  <div class="wrapper float-right ">       
+      <div class="btn-group float-right langSetting">
+        <button type="button" class="btn btn-light buttonLeft">In English</button>
+        <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Suomeksi</a>
+          <a class="dropdown-item" href="#">På svenska</a>
+   
+          <div class="dropdown-divider"></div>
+     
+        </div>
+      </div>
+  
+  </div>
+
+
+  
+  <div class="wrapper float-right">
+    <a class="float-right textSpacing text-white h5">Intranet</a>
+    <a class="float-right textSpacing text-white h5">News</a>
+</div>
+
+</div>      
+     
+
+    
+</langNav>
+
+<!--Nav bar-->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">  <img src="https://i.imgur.com/IWY9LrA.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav " >
+                <div class="dropdown-divider"></div>
+                <li class="nav-item">
+                    <a class="nav-link" href="company.html">Company <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+
+    
+        <div class="wholeWrapper  d-md-block d-lg-none ">
+                <input type="text" class="form-control searchSize d-md-block d-lg-none searchSize2 float-left inputMargin" id="search" name="searchBar" placeholder="Search">  
+                <button type="submit" class="btn buttonMargin  d-md-block d-lg-none text-white" style="background-color: #4C8930;">Search</button>
+        </div>
+    
+
+        <div class="dropdown-divider"></div>
+
+
+            <div class="d-md-block d-lg-none float-left wholeWrapper"> 
+                <div class="dropdown">
+                    <button class="btn btn-light border dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    In English
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Suomeksi</a>
+                        <a class="dropdown-item" href="#">På svenska</a>
+             
+                    </div>
+          
+                    <button class="btn btn-light border">Intranet</button>
+                    <button class="btn btn-light border">News</button>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        
+        <div class="collapse navbar-collapse d-none d-lg-block" >
+                <p class="spacer"></p>
+                <input type="text" class="form-control float-right searchSize" id="search" name="searchBar" placeholder="Search">       
+                <button type="submit" class="btn btn-success float-right buttonMargin" style="background-color: #4C8930;">Search</button>
+        </div>
+
+</nav>
+
+    
+<!--content-->
+<div>
+
+<hr class="my-4">
+
+<div class="separator"></div>
+
+<div>
+    <div class="row">
+        <div class="col" style="padding-left:5%; padding-right:5%; padding-bottom: 5%;">
+            <h3>Uutiskirje</h3>
+
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        
+        </div>
+
+        <div class="col ">
+            <h3>Tilaa uutiskirje</h3>
+            <!--large and medium-->
+                <div class="d-none d-md-block" style="height: 15%;"> 
+                    
+                    <input type="text" class="form-control searchSize searchSize2 float-left inputMargin" id="search" name="searchBar" placeholder="Sähköposti" style="margin-left: 20%; width:40%">  
+                    <button class="btn" style="background-color:#4C8930; color:white; height: 40px;" onclick="tilaus()">Tilaa uutiskirje</button>
+                </div>
+                
+<!--small-->
+                <div class="d-none d-sm-block d-md-none d-sm-block">
+                    <input type="text" class="form-control searchSize searchSize2 float-left inputMargin" id="search" name="searchBar" placeholder="Sähköposti" style=" width:40%">  
+                    <button class="btn" style="background-color:#4C8930; color:white; height: 40px;" onclick="tilaus()">Tilaa uutiskirje</button>
+                </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<!--Large-->
+<footer class="page-footer font-small pt-4 footerBackground d-md-none d-sm-none d-none d-lg-block">
+              
+    <div class="container">  
+        <div class="row">
+            <div class="col">
+                <h4 class="text-white">Liana Technologies</h4>
+            </div>
+            <div class="col">
+
+            </div>
+            <div class="col-4">
+                <a class="footerButtons text-white" href="#">Company</a>
+                <a class="footerButtons text-white" href="#">Products</a>
+                <a class="footerButtons text-white" href="#">Contact us</a>
+                <a class="footerButtons text-white" href="#">News</a>
+                <a class="footerButtons text-white" href="#">Intranet</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="separatorBlack" style="background-color: black;"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+<p class="text-white font-weight-bold" style="margin-bottom: 0;width: 200px">Sales and inquiries</p>
+<p class="text-white" style="margin-bottom: 0;width: 200px">Email: sales@lianatech.com</p>
+<p class="text-white" style="margin-bottom: 0; width: 200px">Phone: +358 10 387 7053</p>
+
+
+
+            </div>
+
+            <div class="col-6 d-flex align-items-end" style="padding-left: 0;">
+                <button class="btn btn-success float-left" style="background-color: #4C8930;">Contact us</button>
+            </div>
+
+            <div class="col d-flex justify-content-end align-items-end" style="padding-right: 4%">
+                <i class="fab fa-facebook fa-2x iconColor" style="padding:2%;"></i>
+                <i class="fab fa-twitter fa-2x iconColor" style="padding:2%;"></i>
+                <i class="fab fa-linkedin fa-2x iconColor" style="padding:2%;"></i>
+            </div>
+        </div>
+    </div>
+    <div class="separatorBlack" style="background-color: black;"></div>  
+    <div class="separatorBlack" style="background-color: black;"></div>
+</footer>
+
+
+
+
+<!--Medium-->
+<footer class="page-footer font-small pt-4 footerBackground  d-sm-none  d-md-block d-lg-none">
+              
+    <div class="container">  
+        <div class="row">
+            <div class="col">
+                <h4 class="text-white">Liana Technologies</h4>
+            </div>
+            <div class="col">
+
+            </div>
+            <div class="col-4">
+                <a class="footerButtons text-white" href="#">Company</a>
+                <a class="footerButtons text-white" href="#">Products</a>
+                <a class="footerButtons text-white" href="#">Contact us</a>
+                <a class="footerButtons text-white" href="#">News</a>
+                <a class="footerButtons text-white" href="#">Intranet</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="separatorBlack" style="background-color: black;"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col" style="width:220px;">
+                <p class="text-white font-weight-bold" style="margin-bottom: 0;width: 200px">Sales and inquiries</p>
+                <p class="text-white" style="margin-bottom: 0;width: 200px">Email: sales@lianatech.com</p>
+                <p class="text-white" style="margin-bottom: 0; width: 200px">Phone: +358 10 387 7053</p>
+
+
+
+            </div>
+
+            <div class="col-6 d-flex align-items-end" style="padding-left: 0;">
+                <button class="btn btn-success float-left" style="background-color: #4C8930;">Contact us</button>
+            </div>
+
+            <div class="col d-flex justify-content-end align-items-end" style="padding-right: 4%">
+                <i class="fab fa-facebook fa-2x iconColor" style="padding:2%;"></i>
+                <i class="fab fa-twitter fa-2x iconColor" style="padding:2%;"></i>
+                <i class="fab fa-linkedin fa-2x iconColor" style="padding:2%;"></i>
+            </div>
+        </div>
+    </div>
+    <div class="separatorBlack" style="background-color: black;"></div>  
+    <div class="separatorBlack" style="background-color: black;"></div>
+</footer>
+
+
+
+
+<!--Small-->
+<footer class="page-footer font-small pt-4 footerBackground  d-none d-sm-block d-md-none d-sm-block">
+              
+    <div class="container">  
+        <div class="row">
+            <div class="col">
+                <h4 class="text-white">Liana Technologies</h4>
+            </div>
+            <div class="col">
+
+            </div>
+            <div class="col-4">
+                <a class="footerButtons text-white" href="#">Company</a>
+                <a class="footerButtons text-white" href="#">Products</a>
+                <a class="footerButtons text-white" href="#">Contact us</a>
+                <a class="footerButtons text-white" href="#">News</a>
+                <a class="footerButtons text-white" href="#">Intranet</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="separatorBlack" style="background-color: black;"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col" style="width:150px;">
+                <p class="text-white font-weight-bold" style="margin-bottom: 0;width: 200px">Sales and inquiries</p>
+                <p class="text-white" style="margin-bottom: 0;width: 200px">Email: sales@lianatech.com</p>
+                <p class="text-white" style="margin-bottom: 0; width: 200px">Phone: +358 10 387 7053</p>
+
+
+
+            </div>
+
+            <div class="col-6 d-flex align-items-end" style="padding-left: 0;">
+                <button class="btn btn-success float-left" style="background-color: #4C8930;">Contact us</button>
+            </div>
+
+            <div class="col d-flex  " style="padding-right: 4%">
+                <i class="fab fa-facebook fa-2x iconColor" style="padding:2%;"></i>
+                <i class="fab fa-twitter fa-2x iconColor" style="padding:2%;"></i>
+                <i class="fab fa-linkedin fa-2x iconColor" style="padding:2%;"></i>
+            </div>
+        </div>
+    </div>
+    <div class="separatorBlack" style="background-color: black;"></div>  
+    <div class="separatorBlack" style="background-color: black;"></div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html> 
