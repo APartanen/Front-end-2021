@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--merkistön koodaus-->
+        <meta charset="UTF-8">
+        <!--Katseluikkunan leveyden määritys: määritetään seuraamaan ruudun leveyttä-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+ <!--Jquery counter up-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+        <!--Bootstrap css: http linkki-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+       
+ 
+    
+        <!--Oma tyylitiedosto-->
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+<!--Font Awesome Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<!-- Google Material Design Icons -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        
+ <script> $.first_time = true;</script>
+  <title>Liana Technologies</title>
+    </head>
+<body>
+
+
+         
+  
+
+  <!--Main antaa muodon sivulle css avulla-->
+<main>
+ 
+
+<langNav class="navbar navbar-expand-lg navbar-light langNav d-none d-lg-block">
+
+<div class="wholeWrapper float-right"> 
+
+
+  <div class="wrapper float-right ">       
+      <div class="btn-group float-right langSetting">
+        <button type="button" class="btn btn-light buttonLeft">In English</button>
+        <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Suomeksi</a>
+          <a class="dropdown-item" href="#">På svenska</a>
+   
+          <div class="dropdown-divider"></div>
+     
+        </div>
+      </div>
+  
+  </div>
+
+
+  
+  <div class="wrapper float-right">
+    <a class="float-right textSpacing text-white h5">Intranet</a>
+    <a class="float-right textSpacing text-white h5">News</a>
+</div>
+
+</div>      
+     
+
+    
+</langNav>
+
+<!--Nav bar-->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">  <img src="https://i.imgur.com/IWY9LrA.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav " >
+                <div class="dropdown-divider"></div>
+                <li class="nav-item">
+                    <a class="nav-link" href="company.html">Company <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+
+    
+        <div class="wholeWrapper  d-md-block d-lg-none ">
+                <input type="text" class="form-control searchSize d-md-block d-lg-none searchSize2 float-left inputMargin" id="search" name="searchBar" placeholder="Search">  
+                <button type="submit" class="btn buttonMargin  d-md-block d-lg-none text-white" style="background-color: #4C8930;">Search</button>
+        </div>
+    
+
+        <div class="dropdown-divider"></div>
+
+
+            <div class="d-md-block d-lg-none float-left wholeWrapper"> 
+                <div class="dropdown">
+                    <button class="btn btn-light border dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    In English
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Suomeksi</a>
+                        <a class="dropdown-item" href="#">På svenska</a>
+             
+                    </div>
+          
+                    <button class="btn btn-light border">Intranet</button>
+                    <button class="btn btn-light border">News</button>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        
+        <div class="collapse navbar-collapse d-none d-lg-block" >
+                <p class="spacer"></p>
+                <input type="text" class="form-control float-right searchSize" id="search" name="searchBar" placeholder="Search">       
+                <button type="submit" class="btn btn-success float-right buttonMargin" style="background-color: #4C8930;">Search</button>
+        </div>
+
+</nav>
+
+    
+<!--content-->
+<div>
+
+<!--software fuling the world, image + button-->
+
+<!--large screens-->
+
+<div class="wholeWrapper buttonContainer parallaxLarge  d-none d-md-block"> 
+  
+    <button class="btn">Learn more</button>
+    <div class="centered text-white d-md-none d-lg-block"><h2>Software fuling digital marketing</h2></div>
+
+<!--medium-->
+<div class="centered text-white d-md-block d-lg-none " ><h4>Software fuling digital marketing</h4></div>
+
+<button class="btn d-md-block d-lg-none">Learn more</button>
+</div>
+
+
+<!--small-->
+<div class="wholeWrapper buttonContainerSmall parallaxSmall d-none d-sm-block d-md-none d-sm-block" style="height:250px;padding:0;"> 
+  
+    <div class="centeredSmall d-none d-sm-block d-md-none text-white" style="width: 350px;text-align: center"><h5>Software fuling digital marketing</h5></div>
+    <button class="btn btn-success d-md-block d-lg-none" style="font-size: medium; height:50px; width: 150px;">Learn more</button>
+    </div>
+
+
+
+
+   
+<div class="separator  d-md-block"></div>
+<div class="separator  d-sm-none d-md-block"></div>
+
+<!--Large, medium, small-->
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <div class="buttonContainer">
+                    <img src="https://i.imgur.com/KgrROPf.png" class="rounded imageBrightness" alt="Company">
+                    <div class="centered2 text-white font-weight-bold fontSizeImage">Company</div>
+            </div>
+        </div>
+
+            <div class="col-sm">
+                <div class="buttonContainer">
+                    <img src="https://i.imgur.com/5OEtU63.png" class="rounded imageBrightness" alt="Products">
+                    <div class="centered2 text-white font-weight-bold fontSizeImage">Products</div>
+                </div>
+            </div>
+
+            <div class="col-sm">
+                <div class="buttonContainer">
+                    <img src="https://i.imgur.com/1ARBcQy.png" class="rounded imageBrightness" alt="Contact us">
+                    <div class="centered2 text-white font-weight-bold fontSizeImage">Contact us</div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+
+<div class="separator  d-sm-none d-md-block"></div>
+<div class="separator"></div>
+<div class="separator"></div>
+
+
+
+<!--Large and medium-->
+<div class="container d-none d-md-block">
+    <div class="row">
+     
+        <div class="col">
+                <i class="fas fa-briefcase fa-4x iconColor float-left"></i>
+                    <div class=" d-flex align-items-center" style="padding-left: 5%;"> 
+                        <h1 class="display-4 test">3000</h1>
+                    </div>
+
+                    <div class="d-flex align-items-end"> 
+                        <h4 style="padding-left: 30%;">Clients</h4>
+                    </div>
+              
+        </div>
+
+        <div class="col">
+            <i class="material-icons material-icons md-36  iconColor float-left">face</i>
+                <div class=" d-flex align-items-center" style="padding-left: 5%;"> 
+                    <h1 class="display-4 test">180</h1>
+                </div>
+
+                <div class="d-flex align-items-end"> 
+                    <h4 style="padding-left: 9%;">Employees</h4>
+                </div>
+          
+        </div>
+
+        <div class="col">
+            <i class="fas fa-globe-americas fa-4x iconColor float-left"></i>
+                <div class=" d-flex align-items-center" style="padding-left: 5%;"> 
+                    <h1 class="display-4 test">10000</h1>
+                </div>
+
+                <div class="d-flex align-items-end"> 
+                    <h4 style="padding-left: 25%;">Daily users</h4>
+                </div>
+          
+    </div>
+
+     
+
+         
+    </div>
+</div>
+
+<!--Small-->
+<div class="container d-none d-sm-block d-md-none d-sm-block">
+    <div class="row">
+     
+        <div class="col">
+                <i class="fas fa-briefcase fa-4x iconColor float-left"></i>
+                    <div class=" d-flex align-items-center" style="padding-left: 5%;"> 
+                        <h1 class="display-4 test">3000</h1>
+                    </div>
+
+                    <div class="d-flex align-items-end"> 
+                        <h4 style="padding-left: 30%;">Clients</h4>
+                    </div>
+              
+        </div>
+
+        <div class="col">
+            <i class="material-icons material-icons md-36  iconColor float-left">face</i>
+                <div class=" d-flex align-items-center" style="padding-left: 5%;"> 
+                    <h1 class="display-4 test">180</h1>
+                </div>
+
+                <div class="d-flex align-items-end"> 
+                    <h4 style="padding-left: 9%;">Employees</h4>
+                </div>
+          
+        </div>
+
+      
+
+    </div>
+
+  <div class="row">
+    <div class="col">
+        <i class="fas fa-globe-americas fa-4x iconColor float-left"></i>
+            <div class=" d-flex align-items-center" style="padding-left: 5%;"> 
+                <h1 class="display-4 test">10000</h1>
+            </div>
+
+            <div class="d-flex align-items-end"> 
+                <h4 style="padding-left: 25%;">Daily users</h4>
+            </div> 
+    </div>  
+  </div>
+
+</div>
+   
+<div class="separator"></div>
+
+<!--Latest news-->
+
+    
+<!--Large-->
+<div class="newsBackground d-md-none d-sm-none d-none d-lg-block">
+    <div>
+        <h2 class="latestNews text-center">Latest news</h2>
+    </div>
+
+    
+    
+    <div class="container">
+        <div class="row">
+
+            <div class="col newsUnit">
+                <p class="text-muted">27.07.2016</p>
+                <h5>Liana Technologies and Encode Solutions merge to crat unique mobile solutions</h5>
+            </div>
+    
+    
+            <div class="col newsUnit">
+                <p class="text-muted">28.21.2016</p>
+                <h5>From a local startup to a global player: Liana Technologies among the forerunners of digital marketing technology</h5>
+            </div>
+    
+    
+    
+    
+            <div class="col newsUnit">
+                <p class="text-muted">02.07.2015</p>
+                <h5>Liana Technologies Hong Kong launcehs a series of digital marketing events in June</h5>
+            </div>
+ 
+        </div>
+    </div>
+
+</div>
+
+<!--Medium, small-->
+<div class="newsBackground d-sm-block d-md-block d-lg-none">
+    <div>
+        <h2 class="latestNews text-center">Latest news</h2>
+    </div>
+
+    
+    <div class="container">
+        <div class="row">
+
+            <div class="col newsUnitMediumSmall">
+                <p class="text-muted">27.07.2016</p>
+                <h6>Liana Technologies and Encode Solutions merge to crat unique mobile solutions</h6>
+            </div>
+    
+    
+            <div class="col newsUnitMediumSmall">
+                <p class="text-muted">28.21.2016</p>
+                <h6>From a local startup to a global player: Liana Technologies among the forerunners of digital marketing technology</h6>
+            </div>
+    
+    
+    
+
+            <div class="col newsUnitMediumSmall">
+                <p class="text-muted">02.07.2015</p>
+                <h6>Liana Technologies Hong Kong launcehs a series of digital marketing events in June</h6>
+            </div>
+ 
+        </div>
+    </div>
+
+</div>
+
+
+
+<!--References-->
+
+<!--Large-->
+<div class="container d-md-none d-sm-none d-none d-lg-block">
+    <div>
+        <h2 class="latestNews text-center">References</h2>
+    </div>
+
+    <div class="row">
+        <div class="col referenceUnit">
+           <div style="width: 100%; height: 50%;">
+                <img src="https://i.imgur.com/G5NpKmY.png" alt="logo" style="height:100%; width: 100%;">
+           </div>
+
+           <div style="width: 100%; height: 50%; border-top: 0.5px solid #E0E0E0; text-align: center;">
+                <h5 style="padding-top:5%;">Robert Bosch</h5>
+                <p class="text-muted" style="padding:3%;">Bosch is a multinational engineering and electronics company.</p>
+            </div>
+        </div>
+
+
+        <div class="col referenceUnit">
+            <div style="width: 100%; height: 50%;">
+                 <img src="https://i.imgur.com/RorbWu8.png" alt="logo" style="height:100%; width: 100%;">
+            </div>
+ 
+            <div style="width: 100%; height: 50%; border-top: 0.5px solid #E0E0E0; text-align: center;">
+                 <h5 style="padding-top:5%;">The Body Shop</h5>
+                 <p class="text-muted" style="padding:3%;">The Body Shop is a global beauty brand and it has more than 3,000 stores in more than 60 countries.</p>
+             </div>
+         </div>
+
+      
+         <div class="col referenceUnit">
+            <div style="width: 100%; height: 50%;">
+                 <img src="https://i.imgur.com/HjmycbX.png" alt="logo" style="height:100%; width: 100%;">
+            </div>
+ 
+            <div style="width: 100%; height: 50%; border-top: 0.5px solid #E0E0E0; text-align: center;">
+                 <h5 style="padding-top:5%;">Lapland hotels</h5>
+                 <p class="text-muted" style="padding:3%;">Lapland Hotels is the largest and the most diverse hotel chain in Lapland.</p>
+             </div>
+         </div>
+ 
+         
+
+
+         <div class="col referenceUnit">
+            <div style="width: 100%; height: 50%;">
+                 <img src="https://i.imgur.com/3f1d6na.png" alt="logo" style="height:100%; width: 100%;">
+            </div>
+ 
+            <div style="width: 100%; height: 50%; border-top: 0.5px solid #E0E0E0; text-align: center;">
+                 <h5 style="padding-top:5%;">IKEA</h5>
+                 <p class="text-muted" style="padding:3%;">IKEA is a multinational furniture store.</p>
+             </div>
+         </div>
+
+    </div>
+</div>
+
+
+<!--Medium-->
+<div class="wholeWrapper d-sm-none  d-md-block d-lg-none" style="margin:0; padding:2%;">
+    <div>
+        <h2 class="latestNews text-center">References</h2>
+    </div>
+
+    <div class="row">
+        <div class="col referenceUnitMedium">
+           <div style="width: 100%; height: 50%;">
+                <img src="https://i.imgur.com/G5NpKmY.png" alt="logo" style="height:100%; width: 100%;">
+           </div>
+
+           <div style="width: 100%; height: 50%; border-top: 0.5px solid #E0E0E0; text-align: center;">
+                <h5 style="padding-top:5%;">Robert Bosch</h5>
+                <p class="text-muted" style="padding:3%;">Bosch is a multinational engineering and electronics company.</p>
+            </div>
+        </div>
+
+
+        <div class="col referenceUnitMedium">
+            <div style="width: 100%; height: 50%;">
+                 <img src="https://i.imgur.com/RorbWu8.png" alt="logo" style="height:100%; width: 100%;">
+            </div>
+ 
+            <div style="width: 100%; height: 50%; border-top: 0.5px solid #E0E0E0; text-align: center;">
+                 <h5 style="padding-top:5%;">The Body Shop</h5>
+                 <p class="text-muted" style="padding:3%;">The Body Shop is a global beauty brand and it has more than 3,000 stores in more than 60 countries.</p>
+             </div>
+         </div>
+
+      
+         <div class="col referenceUnitMedium">
+            <div style="width: 100%; height: 50%;">
+                 <img src="https://i.imgur.com/HjmycbX.png" alt="logo" style="height:100%; width: 100%;">
+            </div>
+ 
+            <div style="width: 100%; height: 50%; border-top: 0.5px solid #E0E0E0; text-align: center;">
+                 <h5 style="padding-top:5%;">Lapland hotels</h5>
+                 <p class="text-muted" style="padding:3%;">Lapland Hotels is the largest and the most diverse hotel chain in Lapland.</p>
+             </div>
+         </div>
+ 
+         
+
+
+         <div class="col referenceUnitMedium">
+            <div style="width: 100%; height: 50%;">
+                 <img src="https://i.imgur.com/3f1d6na.png" alt="logo" style="height:100%; width: 100%;">
+            </div>
+ 
+            <div style="width: 100%; height: 50%; border-top: 0.5px solid #E0E0E0; text-align: center;">
+                 <h5 style="padding-top:5%;">IKEA</h5>
+                 <p class="text-muted" style="padding:3%;">IKEA is a multinational furniture store.</p>
+             </div>
+         </div>
+ 
+
+    </div>
+</div>
+
+<!--Small-->
+<div class="wholeWrapper  d-none d-sm-block d-md-none d-sm-block" style="margin:0; padding:2%;">
+    <div>
+        <h2 class="latestNews text-center">References</h2>
+    </div>
+
+    <div class="row">
+        <div class="col referenceUnitSmall">
+           <div style="width: 100%; height: 50%;">
+                <img src="https://i.imgur.com/G5NpKmY.png" alt="logo" style="height:100%; width: 100%;">
+           </div>
+
+           <div style="width: 100%; height: 50%; border-top: 0.5px solid #E0E0E0; text-align: center;">
+                <h5 style="padding-top:5%;">Robert Bosch</h5>
+                <p class="text-muted" style="padding:3%;">Bosch is a multinational engineering and electronics company.</p>
+            </div>
+        </div>
+
+
+        <div class="col referenceUnitSmall">
+            <div style="width: 100%; height: 50%;">
+                 <img src="https://i.imgur.com/RorbWu8.png" alt="logo" style="height:100%; width: 100%;">
+            </div>
+ 
+            <div style="width: 100%; height: 50%; border-top: 0.5px solid #E0E0E0; text-align: center;">
+                 <h5 style="padding-top:5%;">The Body Shop</h5>
+                 <p class="text-muted" style="padding:3%;">The Body Shop is a global beauty brand and it has more than 3,000 stores in more than 60 countries.</p>
+             </div>
+         </div>
+    </div>
+    <div class="row">
+         <div class="col referenceUnitSmall">
+            <div style="width: 100%; height: 50%;">
+                 <img src="https://i.imgur.com/HjmycbX.png" alt="logo" style="height:100%; width: 100%;">
+            </div>
+ 
+            <div style="width: 100%; height: 50%; border-top: 0.5px solid #E0E0E0; text-align: center;">
+                 <h5 style="padding-top:5%;">Lapland hotels</h5>
+                 <p class="text-muted" style="padding:3%;">Lapland Hotels is the largest and the most diverse hotel chain in Lapland.</p>
+             </div>
+         </div>
+ 
+         
+
+
+         <div class="col referenceUnitSmall">
+            <div style="width: 100%; height: 50%;">
+                 <img src="https://i.imgur.com/3f1d6na.png" alt="logo" style="height:100%; width: 100%;">
+            </div>
+ 
+            <div style="width: 100%; height: 50%; border-top: 0.5px solid #E0E0E0; text-align: center;">
+                 <h5 style="padding-top:5%;">IKEA</h5>
+                 <p class="text-muted" style="padding:3%;">IKEA is a multinational furniture store.</p>
+             </div>
+         </div>
+ 
+
+    </div>
+</div>
+
+<hr class="my-4">
+ 
+
+<!--Subscribe-->
+
+
+<div>
+    <div>
+<h1 class="newsLetter justify-content-center">Subscribe to our newsletter</h1>
+    </div>
+
+    <div class="text-center">
+        <p>Follow our story and get the latest promotional <br> news about our products and events</p>
+    </div>
+
+
+    <div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+            </div>
+
+                <!--Large-->
+                <div class="col col-4 d-md-none d-sm-none d-none d-lg-block" style="padding-left:0;">
+                    <input type="text" class="form-control text-muted inputSyle" id="newsletterInput" name="newsletterInput" placeholder="Your email address">  
+                </div>
+
+                <!--Medium-->
+                <div class="col col-4 d-sm-none  d-md-block d-lg-none" style="padding-left:0;">
+                    <input type="text"  class="form-control text-muted inputSyle" style="font-size:20px;" id="newsletterInput" name="newsletterInput" placeholder="Your email address">  
+                </div>
+
+                <!--Small-->
+                <div class="col col-4 d-none d-sm-block d-md-none d-sm-block" style="padding-left:0;">
+                    <input type="text" class="form-control text-muted inputSyle" style="font-size:15px;" id="newsletterInput" name="newsletterInput" placeholder="Your email address">  
+                </div>
+
+                <div class="col" style="padding-left:0;">
+                 <a href="newsLetter.html">   <button class="btn" style="background-color:#4C8930; color:white; height: 40px;"><h5>Subscribe</h5></button></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+<div class="separator"></div>
+
+
+<!-- Footer -->
+
+<!--Large-->
+<footer class="page-footer font-small pt-4 footerBackground d-md-none d-sm-none d-none d-lg-block">
+              
+    <div class="container">  
+        <div class="row">
+            <div class="col">
+                <h4 class="text-white">Liana Technologies</h4>
+            </div>
+            <div class="col">
+
+            </div>
+            <div class="col-4">
+                <a class="footerButtons text-white" href="#">Company</a>
+                <a class="footerButtons text-white" href="#">Products</a>
+                <a class="footerButtons text-white" href="#">Contact us</a>
+                <a class="footerButtons text-white" href="#">News</a>
+                <a class="footerButtons text-white" href="#">Intranet</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="separatorBlack" style="background-color: black;"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+<p class="text-white font-weight-bold" style="margin-bottom: 0;width: 200px">Sales and inquiries</p>
+<p class="text-white" style="margin-bottom: 0;width: 200px">Email: sales@lianatech.com</p>
+<p class="text-white" style="margin-bottom: 0; width: 200px">Phone: +358 10 387 7053</p>
+
+
+
+            </div>
+
+            <div class="col-6 d-flex align-items-end" style="padding-left: 0;">
+                <button class="btn btn-success float-left" style="background-color: #4C8930;">Contact us</button>
+            </div>
+
+            <div class="col d-flex justify-content-end align-items-end" style="padding-right: 4%">
+                <i class="fab fa-facebook fa-2x iconColor" style="padding:2%;"></i>
+                <i class="fab fa-twitter fa-2x iconColor" style="padding:2%;"></i>
+                <i class="fab fa-linkedin fa-2x iconColor" style="padding:2%;"></i>
+            </div>
+        </div>
+    </div>
+    <div class="separatorBlack" style="background-color: black;"></div>  
+    <div class="separatorBlack" style="background-color: black;"></div>
+</footer>
+
+
+
+
+<!--Medium-->
+<footer class="page-footer font-small pt-4 footerBackground  d-sm-none  d-md-block d-lg-none">
+              
+    <div class="container">  
+        <div class="row">
+            <div class="col">
+                <h4 class="text-white">Liana Technologies</h4>
+            </div>
+            <div class="col">
+
+            </div>
+            <div class="col-4">
+                <a class="footerButtons text-white" href="#">Company</a>
+                <a class="footerButtons text-white" href="#">Products</a>
+                <a class="footerButtons text-white" href="#">Contact us</a>
+                <a class="footerButtons text-white" href="#">News</a>
+                <a class="footerButtons text-white" href="#">Intranet</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="separatorBlack" style="background-color: black;"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col" style="width:220px;">
+                <p class="text-white font-weight-bold" style="margin-bottom: 0;width: 200px">Sales and inquiries</p>
+                <p class="text-white" style="margin-bottom: 0;width: 200px">Email: sales@lianatech.com</p>
+                <p class="text-white" style="margin-bottom: 0; width: 200px">Phone: +358 10 387 7053</p>
+
+
+
+            </div>
+
+            <div class="col-6 d-flex align-items-end" style="padding-left: 0;">
+                <button class="btn btn-success float-left" style="background-color: #4C8930;">Contact us</button>
+            </div>
+
+            <div class="col d-flex justify-content-end align-items-end" style="padding-right: 4%">
+                <i class="fab fa-facebook fa-2x iconColor" style="padding:2%;"></i>
+                <i class="fab fa-twitter fa-2x iconColor" style="padding:2%;"></i>
+                <i class="fab fa-linkedin fa-2x iconColor" style="padding:2%;"></i>
+            </div>
+        </div>
+    </div>
+    <div class="separatorBlack" style="background-color: black;"></div>  
+    <div class="separatorBlack" style="background-color: black;"></div>
+</footer>
+
+
+
+
+<!--Small-->
+<footer class="page-footer font-small pt-4 footerBackground  d-none d-sm-block d-md-none d-sm-block">
+              
+    <div class="container">  
+        <div class="row">
+            <div class="col">
+                <h4 class="text-white">Liana Technologies</h4>
+            </div>
+            <div class="col">
+
+            </div>
+            <div class="col-4">
+                <a class="footerButtons text-white" href="#">Company</a>
+                <a class="footerButtons text-white" href="#">Products</a>
+                <a class="footerButtons text-white" href="#">Contact us</a>
+                <a class="footerButtons text-white" href="#">News</a>
+                <a class="footerButtons text-white" href="#">Intranet</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="separatorBlack" style="background-color: black;"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col" style="width:150px;">
+                <p class="text-white font-weight-bold" style="margin-bottom: 0;width: 200px">Sales and inquiries</p>
+                <p class="text-white" style="margin-bottom: 0;width: 200px">Email: sales@lianatech.com</p>
+                <p class="text-white" style="margin-bottom: 0; width: 200px">Phone: +358 10 387 7053</p>
+
+
+
+            </div>
+
+            <div class="col-6 d-flex align-items-end" style="padding-left: 0;">
+                <button class="btn btn-success float-left" style="background-color: #4C8930;">Contact us</button>
+            </div>
+
+            <div class="col d-flex  " style="padding-right: 4%">
+                <i class="fab fa-facebook fa-2x iconColor" style="padding:2%;"></i>
+                <i class="fab fa-twitter fa-2x iconColor" style="padding:2%;"></i>
+                <i class="fab fa-linkedin fa-2x iconColor" style="padding:2%;"></i>
+            </div>
+        </div>
+    </div>
+    <div class="separatorBlack" style="background-color: black;"></div>  
+    <div class="separatorBlack" style="background-color: black;"></div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
+</body>
+
+
+    <script>
+    
+   
+    if($.first_time) { 
+    $('.test').addClass('num');
+
+     $(".num").counterUp({
+        delay: 50,
+        time: 3000,
+    
+    })
+    console.log( "toimii")
+    $.first_time = false;
+    $('.num').removeClass('num');
+    
+    }
+    
+    </script>
+  
+</html>
+

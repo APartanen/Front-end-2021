@@ -1,0 +1,397 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background: rgb(255, 255, 255);
+    height:auto;
+}
+
+main {
+    max-width: 1150px;
+    margin: auto;
+    box-shadow: 25px 0px 35px rgba(0,0,0,0.1),
+    -30px 0px 40px rgba(0,0,0,0.1)
+
+}
+
+/*Navbar css:*/
+/* min-height required for nav dropdown, if height is used, turns dropdown transparent */
+nav {
+    min-height: 110px;
+    background-color: #FFFFFF;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://i.imgur.com/mIiziwb.png");
+  
+    /* Set a specific height */
+    min-height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallaxLarge {
+    /* The image used */
+    background-image: url("https://i.imgur.com/mIiziwb.png");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallaxSmall {
+    /* The image used */
+    background-image: url("https://i.imgur.com/mIiziwb.png");
+  
+    /* Set a specific height */
+    min-height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.langNav{
+    background-color: #4C8930;
+    height: 60px
+}
+
+
+/*Content wrappers for float-left/right*/
+.wholeWrapper{
+    width:100%;
+}
+
+.wrapper{
+    width:25%;
+}
+
+
+/*Spacers*/
+.textSpacing{
+margin-right:10px;
+padding-bottom:0;
+margin-bottom:0;
+padding-top:7px;
+}
+
+.spacer {
+    width: 50%;
+}
+
+/*Textbox sizes/margins*/
+.searchSize{
+    width: 90%;
+}
+
+.searchSize2{
+    width: 15%;
+}
+
+.inputMargin{
+    margin-right: 1%;
+    min-width: 25%;
+}
+
+
+
+/*Buttons in nav*/
+.buttonMargin{
+    margin-left: 5%;  
+    margin-right: 20%;
+}
+
+.border {
+    border-color: black;
+}
+
+.langSetting{
+    margin-right: 5%;
+}
+
+.buttonLeft {
+padding-right: 100px;
+}
+/*End of navbar CSS*/
+
+
+
+.background {
+    background-image: url("https://i.imgur.com/O2i7gzR.png");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.separator {
+    padding: 1rem;
+    background: rgb(255,255,255);
+    height: 400%
+}
+
+.separatorBlack {
+    padding: 1rem;
+    background-color: black;
+    height: 400%
+}
+#footer {
+    max-width: 850px;
+    margin: auto;
+    box-shadow:25px 0px 35px rgba(0,0,0,0.1),
+    -30px 0px 40px rgba(0,0,0,0.1)
+}
+
+img {
+    display:block;
+    width:100%;
+}
+
+
+h3 {
+    background: color;
+    padding: 10px;
+    display:flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center; 
+}
+
+.filler {
+    background-image: url("https://i.imgur.com/O2i7gzR.png");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+}
+
+.background-div {
+min-height: 100vh;
+}
+
+
+ /* Container needed to position the button. Adjust the width as needed */
+ .buttonContainer {
+    position: relative;
+    width: 100%;
+    padding:0;
+    margin:0;
+  }
+
+  
+  
+  /* Style the button and place it in the middle of the container/image */
+  .buttonContainer .btn {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #4C8930;
+    color: white;
+    font-size: 100%;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 20%;
+    width: 20%;
+  }
+
+  
+  
+  .buttonContainer .btn:hover {
+    background-color: black;
+    
+  } 
+
+
+
+/*Small screen centering*/
+ /* Container needed to position the button. Adjust the width as needed */
+ .buttonContainerSmall {
+    position: relative;
+    width: 100%;
+    padding:0;
+    margin:0;
+  }
+
+  
+  
+  /* Style the button and place it in the middle of the container/image */
+  .buttonContainerSmall .btn {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #4C8930;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size:0.2em;
+    height: 20%;
+    width: 20%;
+  }
+
+  .centeredSmall {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+  }
+  
+ 
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+
+  .centered2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200%;
+  }
+
+  .imageBrightness {
+    filter: brightness(60%); 
+}
+
+.fontSizeImage {
+    font-size:x-large;
+
+}
+
+.iconColor {
+    color:green;
+}
+
+.material-icons.md-36 { 
+    font-size: 500%; 
+    color:green;
+}
+
+
+/*Latest news*/
+.newsBackground {
+background-color: #ECEEEF;
+height: 350px;
+margin-bottom: 5%;
+}
+
+.latestNews {
+height: auto;
+padding-top: 2%;
+margin-bottom: 3%;
+}
+
+.newsUnit {
+    height: 200px;
+    width: 40%;
+    background-color: white;
+    padding: 2%;
+    border: 0.5px solid #E0E0E0;
+    margin: 2%;
+}
+
+.newsUnitMediumSmall {
+    height: 220px;
+    width: 40%;
+    background-color: white;
+    padding: 2%;
+    border: 0.5px solid #E0E0E0;
+    margin: 2%;
+  
+}
+
+
+/*References*/
+
+
+
+.referenceUnit {
+margin: 2%;
+background-color: white;
+border: 0.5px solid #E0E0E0;
+height: 320px;
+width: 200%;
+padding-left:0;
+padding-right:0;
+}
+
+.referenceUnitMedium {
+    margin: 2%;
+    background-color: white;
+    border: 0.5px solid #E0E0E0;
+    height: 350px;
+    width: 300%;
+    padding-left:0;
+    padding-right:0;
+}
+
+.referenceUnitSmall{
+    background-color: white;
+    border: 0.5px solid #E0E0E0;
+    height: 350px;
+    width: 200%;
+    margin: 5%;
+}
+
+.referenceUnitLogo {
+    
+    background-color: white;
+    border: 0.5px solid #E0E0E0;
+    max-height: 150px;
+    width: 100%;
+}
+
+
+
+.topBorder{
+    border-top: 1px solid #E0E0E0;
+}
+
+
+/*Subscribe*/
+.newsLetter {
+margin-top:4%;
+text-align: center;
+}
+
+.emailInput {
+    width: 20%
+}
+
+.inputSyle[type="text"] {
+    font-size: 25px;
+ 
+  }
+
+/*Footer*/
+.footerBackground {
+    background-color:black;
+} 
+
