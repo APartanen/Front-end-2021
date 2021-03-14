@@ -37,6 +37,7 @@ En aiemmin ollut käyttänyt parallaxia tai animaatioita sivuissani. Ne oli haus
 Ajankäyttö: Puhtaasti ohjelmointia tässä oli noin 5 tuntia. Sisältää myös tiedon etsinnän. 14.3.
 
 Tein tähän projektiin tehtävänannosta kohdat:
+
 Perusosaaminen:
 
 HTML+CSS
