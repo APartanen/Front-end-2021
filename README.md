@@ -3,8 +3,8 @@ Front end kooditehtävä
 
 Päivä 1:
 
-Front end esitehtävä, missä olen tehnyt pääasiassa HTML, CSS juttua. Kuvat tulleet unsplashistä. 
-Bootstrapillä suurin osa asettelusta ja värit. Google Material Design Icons ja Font Awesome icons olivat käytössä. 
+Front end tehtävä, missä olen tehnyt pääasiassa HTML, CSS juttua. Kuvat tulleet unsplashistä. 
+Bootstrapillä suurin osa asettelusta. Google Material Design Icons ja Font Awesome icons olivat käytössä. 
 Pientä näpertelyä oli saada input tagit menemään kuta kuinkin samaan kohtaan kuin esimerkissä.
 
 Mahdollisia haasteita ja ongelmia: Vaikeuksia ei vielä ole ilmennyt, mutta en osaa sanoa
