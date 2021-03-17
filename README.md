@@ -46,6 +46,7 @@ Perusosaaminen:
 HTML+CSS
 Sivu toimii responsiivisena eri päätelaittella - Large/medium/small - xs tulisi lisätä jos se halutaan mukaan.
 
+Extrat:
 1) Pääkuvan toteutuksessa parallax
 2) -
 3) Clients, Employees ja Users -osiossa numeroiden animaatio
