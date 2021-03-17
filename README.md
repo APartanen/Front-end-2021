@@ -1,5 +1,5 @@
 # Front-end-2021
-Front end kooditehtävä
+Työhaastattelua varten tehty esitehtävä 
 
 Päivä 1:
 
